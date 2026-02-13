@@ -6,7 +6,7 @@
     "node": ">=18.17.0"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "vite",
     "build": "vite build",
     "start": "node server.js",
     "ai-backend": "cd v2-ai-job-portal/backend && node server.js",
@@ -37,7 +37,9 @@
     "eslint-config-next": "14.1.0",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vite":"^5.0.0"
   }
 
 }
+
